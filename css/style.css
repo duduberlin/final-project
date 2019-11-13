@@ -1,0 +1,203 @@
+/*
+Styleshhet for exercise 2 in the MAT 22b class at DCI Oct/Nov 2019.
+Author: Duygu Kurt
+*/
+
+/*
+Imports
+*/
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+
+/*
+Reset
+*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+Navigation
+*/ 
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.main-nav ul li {
+   margin-right: 10px; 
+}
+
+.main-nav ul li a {
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #4863A0;
+    color: white;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    background-color: #6D6968;
+    color: black;
+}
+
+/*
+Color & Style
+*/ 
+
+body,
+footer p {
+    background-color: rgb(30,30,30);    
+}
+
+.Home header {
+    color: #4863A0;
+    background-image: url(../img/bruce-lee3.jpg);
+    background-size: 70%;
+    background-position: center;
+    background-color: rgb(200,200,200);
+}
+
+.Boxen header {
+    background-image: url(../img/mike%20tyson.jpg);  
+    background-size: 40%;
+    background-position: center;
+}
+
+.BJJ header {
+    background-image: url(../img/carlos-gracie.jpg);
+    background-size: 50%;
+    background-position: center;
+}
+
+
+.Taekwondo header {
+    background-image: url(../img/taekwondo2.jpg);
+    background-size: 50%;
+    background-position: center;
+}
+
+
+.Sports Gear header {
+    background-image: url(../img/All-Protective-Gear-1.jpg);
+    background-size: 1%;
+    background-position: center;
+}
+
+
+
+main {
+    background-size: 20%;
+    background-color: rgb(230,230,230);
+}
+
+h1 {
+    color: #4863A0;
+}
+
+h2 {
+    color: rgb(200,100,0);
+    background-color: rgba(255,255,255,0.7)
+}
+
+p,h3 {
+    background-color: #4863A0;
+}
+    
+
+p,h3,main a {
+    color: #fff;    
+} 
+
+main a:hover {
+    color: rgb(200,0,0);
+}
+
+footer {
+    color: #fff;
+}
+
+/*
+Typography
+*/ 
+
+body {
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+}
+
+h2,h3,h4,h5,h6 {
+     font-weight: 500;   
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+h3 {
+    text-transform: uppercase;    
+}
+
+p {
+    font-weight: 300;
+}
+
+/*
+Layout
+*/ 
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol {
+    padding-left: 20px;  
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+h1 {
+    padding-top: 1.5em;  
+}
+
+header {
+    height: 25vw; /*vw stands for Viewport Width*/
+}
+
+main {
+    min-height: 70vh;
+}
+
+p,h3 {
+width: 80%;
+    margin-bottom: 0.5em;
+    padding-right: 1em;
+}
+
+article p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+
+}
+
+
+aside p {
+    font-size: 0.8em;
+    vertical-align: bottom;
+        }
+
+
